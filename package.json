@@ -1,0 +1,19 @@
+{
+  "name": "autogit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eatmyvenom/autogit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eatmyvenom/autogit/issues"
+  },
+  "homepage": "https://github.com/eatmyvenom/autogit#readme"
+}
