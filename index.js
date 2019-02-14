@@ -17,7 +17,7 @@ function autoRun(){
     var newPackage = JSON.parse(reads('package.json').toString());
     console.log('scan...')
 
-    if(originalPackage.version < newPackage.version){
+    if(originalPackage.version != newPackage.version){
         originalPackage = newPackage;
         console.log('new version!!!\n')
         restartProcess();
