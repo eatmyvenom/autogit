@@ -4,3 +4,5 @@ process.on('exit', (code)=> {
     // this doesnt workkkkkkkkkk
     cc.kill();
 });
+
+// ignore me
