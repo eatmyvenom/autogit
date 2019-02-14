@@ -13,7 +13,7 @@ var child;
 
 
 function autoRun(){
-    execs('git fetch');
+    execs('git pull');
     var newPackage = JSON.parse(reads('package.json').toString());
     console.log('scan...')
 
